@@ -1,0 +1,82 @@
+.small-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+}
+
+.each-friend {
+  min-width: 300px;
+  width: 80%;
+  margin: 10px auto;
+  border-radius: 20px;
+  padding: 10px;
+  padding-right: 30px;
+}
+
+.outer {
+  background: rgba(255, 255, 255, 0.2) !important;
+  backdrop-filter: blur(8px);
+}
+
+.search-bar-input {
+  outline: none;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.844) !important;
+  padding: 10px 50px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: white;
+  border-radius: 30px;
+  width: 500px;
+}
+
+.suggestion-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+.each-suggestion {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+@media (max-width: 600px) {
+  .search-bar-input {
+    width: 300px;
+  }
+  .brief-card {
+    width: 300px !important;
+    margin-top: -50px;
+  }
+}
+
+.brief-card {
+  box-shadow: none;
+  background-color: rgb(46, 43, 43);
+  width: 500px;
+  text-align: center;
+}
+
+.alert-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+.alert-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 300ms, transform 300ms;
+}
+.alert-exit {
+  opacity: 1;
+}
+.alert-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms, transform 300ms;
+}
