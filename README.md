@@ -1,3 +1,3 @@
 ## Fitness plus
 A React app to tract your daily fitness data
-[live website](https://fitness--plus.web.app/)https://fitness--plus.web.app/
+[live website](https://fitness--plus.web.app/)
